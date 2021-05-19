@@ -249,12 +249,12 @@ calculatorByPostfix = function (postfix) {
 insert = function (phim) {
   document.getElementsByClassName(phim)[0].onclick = function () {
     if (phim === "fun") {
-      document.getElementsByClassName("screen")[0].innerHTML = "THU UYEN";
-      screen = "THU UYEN";
+      document.getElementsByClassName("screen")[0].innerHTML = "TRUNG TRAN";
+      screen = "TRUNG TRAN";
       return true;
     }
     let screen = document.getElementsByClassName("screen")[0].innerHTML;
-    if (screen === "THU UYEN" || (screen === "0" && isNumber(phim))) {
+    if (screen === "TRUNG TRAN" || (screen === "0" && isNumber(phim))) {
       document.getElementsByClassName("screen")[0].innerHTML = "";
       screen = "";
     }
