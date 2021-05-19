@@ -1,0 +1,40 @@
+#main {
+  background-color: rgb(238, 102, 186);
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  border-radius: 20px;
+}
+#main .screen {
+  background-color: white;
+  height: 80px;
+  width: 90%;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5px;
+}
+#main .phim {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#main .phim .phim_style {
+  background-color: aliceblue;
+  width: 22%;
+  margin-top: 9px;
+  height: 49px;
+  border-radius: 10px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+#main .phim .bang {
+  width: 48%;
+}
